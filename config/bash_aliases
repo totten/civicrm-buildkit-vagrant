@@ -5,3 +5,12 @@
 # provisioning is finished. This allows for various scripts and configurations to
 # be available to us.
 #
+
+alias lsc='ls --color=auto -F'
+alias lsx='ls --color=auto -Fl'
+
+# This box has a mixed audience. Use safe defaults. If you don't like -i,
+# edit locally.
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
