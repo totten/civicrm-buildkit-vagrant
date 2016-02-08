@@ -321,4 +321,8 @@ Vagrant.configure("2") do |config|
       run "vagrant ssh -c 'vagrant_destroy'"
     end
   end
+
+  if Vagrant.has_plugin?("vagrant-cachier")
+    config.cache.scope = :box
+  end
 end
