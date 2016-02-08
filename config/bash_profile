@@ -30,6 +30,3 @@ fi
 if [ -d "$HOME/buildkit/bin" ]; then
     PATH="$HOME/buildkit/bin:$PATH"
 fi
-
-# PHPCS path
-export PATH="$PATH:/srv/www/phpcs/scripts/"
